@@ -1,12 +1,12 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Liber Veritas`,
   },
   plugins: [
     {
@@ -56,4 +56,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
